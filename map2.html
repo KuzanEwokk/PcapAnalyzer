@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7747bcba5a03a65c0a74a77ff8506ae9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7747bcba5a03a65c0a74a77ff8506ae9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7747bcba5a03a65c0a74a77ff8506ae9 = L.map(
+                "map_7747bcba5a03a65c0a74a77ff8506ae9",
+                {
+                    center: [52.0, 20.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d7863e4366b047b64a9aabb0620bdd61 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d7863e4366b047b64a9aabb0620bdd61.addTo(map_7747bcba5a03a65c0a74a77ff8506ae9);
+        
+    
+            var marker_9b21ef5267202aa1f4aebde110c0c4ed = L.marker(
+                [37.4056, -122.0775],
+                {
+}
+            ).addTo(map_7747bcba5a03a65c0a74a77ff8506ae9);
+        
+    
+        var popup_b4b83e0276661c05902083c294c4279e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a813c0093757519c6975569ba217c38 = $(`<div id="html_5a813c0093757519c6975569ba217c38" style="width: 100.0%; height: 100.0%;">ip: 8.8.8.8   hostname: dns.google   city: Mountain View   region: California   country: US   org: AS15169 Google LLC   postal: 94043   timezone: America/Los_Angeles</div>`)[0];
+                popup_b4b83e0276661c05902083c294c4279e.setContent(html_5a813c0093757519c6975569ba217c38);
+            
+        
+
+        marker_9b21ef5267202aa1f4aebde110c0c4ed.bindPopup(popup_b4b83e0276661c05902083c294c4279e)
+        ;
+
+        
+    
+    
+            marker_9b21ef5267202aa1f4aebde110c0c4ed.bindTooltip(
+                `<div>
+                     ip: 8.8.8.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cb268ebb4da33a6bd0c6fea3d4c57152 = L.marker(
+                [37.4056, -122.0775],
+                {
+}
+            ).addTo(map_7747bcba5a03a65c0a74a77ff8506ae9);
+        
+    
+        var popup_6ca4a94d82796d6b8399c687b06cd3f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39e61b8f351636b5c706cdbf0be70019 = $(`<div id="html_39e61b8f351636b5c706cdbf0be70019" style="width: 100.0%; height: 100.0%;">ip: 8.8.8.8   hostname: dns.google   city: Mountain View   region: California   country: US   org: AS15169 Google LLC   postal: 94043   timezone: America/Los_Angeles</div>`)[0];
+                popup_6ca4a94d82796d6b8399c687b06cd3f5.setContent(html_39e61b8f351636b5c706cdbf0be70019);
+            
+        
+
+        marker_cb268ebb4da33a6bd0c6fea3d4c57152.bindPopup(popup_6ca4a94d82796d6b8399c687b06cd3f5)
+        ;
+
+        
+    
+    
+            marker_cb268ebb4da33a6bd0c6fea3d4c57152.bindTooltip(
+                `<div>
+                     ip: 8.8.8.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_21385e195e2d34860f647708c3787590 = L.marker(
+                [52.5083, 5.475],
+                {
+}
+            ).addTo(map_7747bcba5a03a65c0a74a77ff8506ae9);
+        
+    
+        var popup_138bca00389fb57afb1e97a7c0e6a743 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5e043b940511385996f22bc0a773bdb = $(`<div id="html_d5e043b940511385996f22bc0a773bdb" style="width: 100.0%; height: 100.0%;">ip: 78.140.131.151   hostname: nan   city: Lelystad   region: Flevoland   country: NL   org: AS35415 Webzilla B.V.   postal: 8224   timezone: Europe/Amsterdam</div>`)[0];
+                popup_138bca00389fb57afb1e97a7c0e6a743.setContent(html_d5e043b940511385996f22bc0a773bdb);
+            
+        
+
+        marker_21385e195e2d34860f647708c3787590.bindPopup(popup_138bca00389fb57afb1e97a7c0e6a743)
+        ;
+
+        
+    
+    
+            marker_21385e195e2d34860f647708c3787590.bindTooltip(
+                `<div>
+                     ip: 78.140.131.151
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d44fdc32c3f9f05af4683ba08cc2501f = L.marker(
+                [50.088, 14.4208],
+                {
+}
+            ).addTo(map_7747bcba5a03a65c0a74a77ff8506ae9);
+        
+    
+        var popup_65b3ea9708517aa031323a3b156a888d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4059dac14e9e7db8033505407a42152 = $(`<div id="html_c4059dac14e9e7db8033505407a42152" style="width: 100.0%; height: 100.0%;">ip: 195.113.214.249   hostname: gooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.cesnet.cz   city: Prague   region: Prague   country: CZ   org: AS2852 CESNET z.s.p.o.   postal: 110 00   timezone: Europe/Prague</div>`)[0];
+                popup_65b3ea9708517aa031323a3b156a888d.setContent(html_c4059dac14e9e7db8033505407a42152);
+            
+        
+
+        marker_d44fdc32c3f9f05af4683ba08cc2501f.bindPopup(popup_65b3ea9708517aa031323a3b156a888d)
+        ;
+
+        
+    
+    
+            marker_d44fdc32c3f9f05af4683ba08cc2501f.bindTooltip(
+                `<div>
+                     ip: 195.113.214.249
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aa354e06b334d558ee6224a274974817 = L.marker(
+                [50.088, 14.4208],
+                {
+}
+            ).addTo(map_7747bcba5a03a65c0a74a77ff8506ae9);
+        
+    
+        var popup_b140bb237e98de0272995e8ab5f6fd32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7db2ecff6758797989b8d44d7778689e = $(`<div id="html_7db2ecff6758797989b8d44d7778689e" style="width: 100.0%; height: 100.0%;">ip: 195.113.214.249   hostname: gooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.cesnet.cz   city: Prague   region: Prague   country: CZ   org: AS2852 CESNET z.s.p.o.   postal: 110 00   timezone: Europe/Prague</div>`)[0];
+                popup_b140bb237e98de0272995e8ab5f6fd32.setContent(html_7db2ecff6758797989b8d44d7778689e);
+            
+        
+
+        marker_aa354e06b334d558ee6224a274974817.bindPopup(popup_b140bb237e98de0272995e8ab5f6fd32)
+        ;
+
+        
+    
+    
+            marker_aa354e06b334d558ee6224a274974817.bindTooltip(
+                `<div>
+                     ip: 195.113.214.249
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,64 @@
+/* Ogólne ustawienia */
+Screen {
+    background: #1e1e2f;
+    color: #ffffff;
+    padding: 2;
+}
+
+/* Przyciski */
+Button {
+    background: #4a90e2;
+    color: #ffffff;
+    border: none;
+    margin: 1 0;
+    height: 3;
+    padding: 0 2;
+    align: center middle;
+}
+
+Button:hover {
+    background: #357abd;
+    color: #ffffff;
+}
+
+/* Tekst statyczny */
+Static {
+    background: transparent;
+    color: #9aa0a6;
+    padding: 0 1;
+    margin: 1 0;
+    height: auto;
+}
+
+/* Pole tekstowe */
+Input {
+    background: #2b2b3b;
+    border: solid #4a90e2;
+    color: #ffffff;
+    margin: 1 0;
+    padding: 0 1;
+    height: 3;
+}
+
+/* Lista alertów */
+ListView {
+    border: solid #4a90e2;
+    margin: 1 0;
+    height: auto;
+    background: #2b2b3b;
+}
+
+/* Tabela */
+DataTable {
+    border: solid #4a90e2;
+    background: #2b2b3b;
+    color: #ffffff;
+    margin: 1 0;
+}
+
+/* Kontener pionowy */
+Vertical {
+    align: center middle;
+    width: 80%;
+    margin: 1 2;
+}
